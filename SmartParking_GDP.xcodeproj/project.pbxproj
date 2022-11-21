@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1994F4F52917102E00D228D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1994F4F42917102E00D228D3 /* AppDelegate.swift */; };
+		1994F4F72917102E00D228D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1994F4F62917102E00D228D3 /* SceneDelegate.swift */; };
+		1994F4F92917102E00D228D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1994F4F82917102E00D228D3 /* ViewController.swift */; };
+		1994F4FC2917102E00D228D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1994F4FA2917102E00D228D3 /* Main.storyboard */; };
+		1994F4FE2917102F00D228D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1994F4FD2917102F00D228D3 /* Assets.xcassets */; };
+		1994F5012917102F00D228D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1994F4FF2917102F00D228D3 /* LaunchScreen.storyboard */; };
+		1994F50C2917102F00D228D3 /* SmartParking_GDPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1994F50B2917102F00D228D3 /* SmartParking_GDPTests.swift */; };
+		1994F5162917102F00D228D3 /* SmartParking_GDPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1994F5152917102F00D228D3 /* SmartParking_GDPUITests.swift */; };
+		1994F5182917102F00D228D3 /* SmartParking_GDPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1994F5172917102F00D228D3 /* SmartParking_GDPUITestsLaunchTests.swift */; };
+		1994F525291710BE00D228D3 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1994F524291710BE00D228D3 /* GoogleMaps.bundle */; };
+		1994F527291710CE00D228D3 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1994F526291710CE00D228D3 /* GoogleMapsBase.framework */; };
+		1994F529291710F200D228D3 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1994F528291710F200D228D3 /* GoogleMaps.framework */; };
+		1994F52B291710F800D228D3 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1994F52A291710F800D228D3 /* GoogleMapsCore.framework */; };
+		1994F52D291710FD00D228D3 /* GoogleMapsM4B.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1994F52C291710FD00D228D3 /* GoogleMapsM4B.framework */; };
+		1994F5302917111800D228D3 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1994F52F2917111800D228D3 /* Accelerate.framework */; };
+		1994F5322917111E00D228D3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1994F5312917111E00D228D3 /* CoreData.framework */; };
+		1994F5342917112300D228D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1994F5332917112300D228D3 /* CoreGraphics.framework */; };
+		1994F5362917112800D228D3 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1994F5352917112800D228D3 /* CoreImage.framework */; };
+		1994F5382917112C00D228D3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1994F5372917112C00D228D3 /* CoreLocation.framework */; };
+		1994F53A2917113000D228D3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1994F5392917113000D228D3 /* CoreTelephony.framework */; };
+		1994F53C2917113500D228D3 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1994F53B2917113500D228D3 /* CoreText.framework */; };
+		1994F53E2917113B00D228D3 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1994F53D2917113B00D228D3 /* GLKit.framework */; };
+		1994F5402917113F00D228D3 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1994F53F2917113F00D228D3 /* ImageIO.framework */; };
+		1994F5422917114800D228D3 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1994F5412917114800D228D3 /* libc++.tbd */; };
+		1994F5442917115B00D228D3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1994F5432917115B00D228D3 /* libz.tbd */; };
+		1994F5462917116F00D228D3 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1994F5452917116F00D228D3 /* Metal.framework */; };
+		1994F5482917117800D228D3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1994F5472917117800D228D3 /* OpenGLES.framework */; };
+		1994F54A2917119600D228D3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1994F5492917119600D228D3 /* QuartzCore.framework */; };
+		1994F54C291711A200D228D3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1994F54B291711A200D228D3 /* SystemConfiguration.framework */; };
+		1994F54E291711B400D228D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1994F54D291711B400D228D3 /* UIKit.framework */; };
+		1994F5502917138700D228D3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1994F54F2917138700D228D3 /* MapViewController.swift */; };
+		1994F5AD292032AC00D228D3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1994F5AC292032AC00D228D3 /* Alamofire */; };
+		1994F5AF2921A35000D228D3 /* DirectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1994F5AE2921A35000D228D3 /* DirectionViewController.swift */; };
+		1994F5BB292AEFE600D228D3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1994F5BA292AEFE600D228D3 /* FirebaseFirestore */; };
+		1994F5BD292AEFE600D228D3 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 1994F5BC292AEFE600D228D3 /* FirebaseFirestoreCombine-Community */; };
+		1994F5BF292AEFE600D228D3 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1994F5BE292AEFE600D228D3 /* FirebaseFirestoreSwift */; };
+		1994F5C2292AF2FB00D228D3 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 1994F5C1292AF2FB00D228D3 /* FirebaseAnalytics */; };
+		1994F5C4292AF2FB00D228D3 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1994F5C3292AF2FB00D228D3 /* FirebaseAnalyticsSwift */; };
+		199B508F292AF4C30018F1EC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 199B508E292AF4C30018F1EC /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1994F5082917102F00D228D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1994F4E92917102E00D228D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1994F4F02917102E00D228D3;
+			remoteInfo = SmartParking_GDP;
+		};
+		1994F5122917102F00D228D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1994F4E92917102E00D228D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1994F4F02917102E00D228D3;
+			remoteInfo = SmartParking_GDP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1994F5A829202D3B00D228D3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1994F4F12917102E00D228D3 /* SmartParking_GDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartParking_GDP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1994F4F42917102E00D228D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1994F4F62917102E00D228D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1994F4F82917102E00D228D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1994F4FB2917102E00D228D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1994F4FD2917102F00D228D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1994F5002917102F00D228D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1994F5022917102F00D228D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1994F5072917102F00D228D3 /* SmartParking_GDPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartParking_GDPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1994F50B2917102F00D228D3 /* SmartParking_GDPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartParking_GDPTests.swift; sourceTree = "<group>"; };
+		1994F5112917102F00D228D3 /* SmartParking_GDPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartParking_GDPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1994F5152917102F00D228D3 /* SmartParking_GDPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartParking_GDPUITests.swift; sourceTree = "<group>"; };
+		1994F5172917102F00D228D3 /* SmartParking_GDPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartParking_GDPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1994F524291710BE00D228D3 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
+		1994F526291710CE00D228D3 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
+		1994F528291710F200D228D3 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		1994F52A291710F800D228D3 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
+		1994F52C291710FD00D228D3 /* GoogleMapsM4B.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsM4B.framework; sourceTree = "<group>"; };
+		1994F52F2917111800D228D3 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		1994F5312917111E00D228D3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1994F5332917112300D228D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1994F5352917112800D228D3 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		1994F5372917112C00D228D3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1994F5392917113000D228D3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		1994F53B2917113500D228D3 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		1994F53D2917113B00D228D3 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		1994F53F2917113F00D228D3 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		1994F5412917114800D228D3 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		1994F5432917115B00D228D3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1994F5452917116F00D228D3 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		1994F5472917117800D228D3 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		1994F5492917119600D228D3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1994F54B291711A200D228D3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1994F54D291711B400D228D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1994F54F2917138700D228D3 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1994F5AE2921A35000D228D3 /* DirectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionViewController.swift; sourceTree = "<group>"; };
+		199B508E292AF4C30018F1EC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1994F4EE2917102E00D228D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1994F54E291711B400D228D3 /* UIKit.framework in Frameworks */,
+				1994F54C291711A200D228D3 /* SystemConfiguration.framework in Frameworks */,
+				1994F54A2917119600D228D3 /* QuartzCore.framework in Frameworks */,
+				1994F5482917117800D228D3 /* OpenGLES.framework in Frameworks */,
+				1994F5462917116F00D228D3 /* Metal.framework in Frameworks */,
+				1994F5442917115B00D228D3 /* libz.tbd in Frameworks */,
+				1994F5422917114800D228D3 /* libc++.tbd in Frameworks */,
+				1994F5402917113F00D228D3 /* ImageIO.framework in Frameworks */,
+				1994F53E2917113B00D228D3 /* GLKit.framework in Frameworks */,
+				1994F5BB292AEFE600D228D3 /* FirebaseFirestore in Frameworks */,
+				1994F53C2917113500D228D3 /* CoreText.framework in Frameworks */,
+				1994F53A2917113000D228D3 /* CoreTelephony.framework in Frameworks */,
+				1994F5382917112C00D228D3 /* CoreLocation.framework in Frameworks */,
+				1994F5362917112800D228D3 /* CoreImage.framework in Frameworks */,
+				1994F5BD292AEFE600D228D3 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				1994F5342917112300D228D3 /* CoreGraphics.framework in Frameworks */,
+				1994F5322917111E00D228D3 /* CoreData.framework in Frameworks */,
+				1994F5AD292032AC00D228D3 /* Alamofire in Frameworks */,
+				1994F5302917111800D228D3 /* Accelerate.framework in Frameworks */,
+				1994F52D291710FD00D228D3 /* GoogleMapsM4B.framework in Frameworks */,
+				1994F529291710F200D228D3 /* GoogleMaps.framework in Frameworks */,
+				1994F52B291710F800D228D3 /* GoogleMapsCore.framework in Frameworks */,
+				1994F5C4292AF2FB00D228D3 /* FirebaseAnalyticsSwift in Frameworks */,
+				1994F527291710CE00D228D3 /* GoogleMapsBase.framework in Frameworks */,
+				1994F5C2292AF2FB00D228D3 /* FirebaseAnalytics in Frameworks */,
+				1994F5BF292AEFE600D228D3 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1994F5042917102F00D228D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1994F50E2917102F00D228D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1994F4E82917102E00D228D3 = {
+			isa = PBXGroup;
+			children = (
+				1994F524291710BE00D228D3 /* GoogleMaps.bundle */,
+				1994F4F32917102E00D228D3 /* SmartParking_GDP */,
+				1994F50A2917102F00D228D3 /* SmartParking_GDPTests */,
+				1994F5142917102F00D228D3 /* SmartParking_GDPUITests */,
+				1994F4F22917102E00D228D3 /* Products */,
+				1994F52E2917111800D228D3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1994F4F22917102E00D228D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1994F4F12917102E00D228D3 /* SmartParking_GDP.app */,
+				1994F5072917102F00D228D3 /* SmartParking_GDPTests.xctest */,
+				1994F5112917102F00D228D3 /* SmartParking_GDPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1994F4F32917102E00D228D3 /* SmartParking_GDP */ = {
+			isa = PBXGroup;
+			children = (
+				199B508E292AF4C30018F1EC /* GoogleService-Info.plist */,
+				1994F4F42917102E00D228D3 /* AppDelegate.swift */,
+				1994F4F62917102E00D228D3 /* SceneDelegate.swift */,
+				1994F4F82917102E00D228D3 /* ViewController.swift */,
+				1994F4FA2917102E00D228D3 /* Main.storyboard */,
+				1994F4FD2917102F00D228D3 /* Assets.xcassets */,
+				1994F4FF2917102F00D228D3 /* LaunchScreen.storyboard */,
+				1994F5022917102F00D228D3 /* Info.plist */,
+				1994F526291710CE00D228D3 /* GoogleMapsBase.framework */,
+				1994F52A291710F800D228D3 /* GoogleMapsCore.framework */,
+				1994F52C291710FD00D228D3 /* GoogleMapsM4B.framework */,
+				1994F528291710F200D228D3 /* GoogleMaps.framework */,
+				1994F54F2917138700D228D3 /* MapViewController.swift */,
+				1994F5AE2921A35000D228D3 /* DirectionViewController.swift */,
+			);
+			path = SmartParking_GDP;
+			sourceTree = "<group>";
+		};
+		1994F50A2917102F00D228D3 /* SmartParking_GDPTests */ = {
+			isa = PBXGroup;
+			children = (
+				1994F50B2917102F00D228D3 /* SmartParking_GDPTests.swift */,
+			);
+			path = SmartParking_GDPTests;
+			sourceTree = "<group>";
+		};
+		1994F5142917102F00D228D3 /* SmartParking_GDPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1994F5152917102F00D228D3 /* SmartParking_GDPUITests.swift */,
+				1994F5172917102F00D228D3 /* SmartParking_GDPUITestsLaunchTests.swift */,
+			);
+			path = SmartParking_GDPUITests;
+			sourceTree = "<group>";
+		};
+		1994F52E2917111800D228D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1994F54D291711B400D228D3 /* UIKit.framework */,
+				1994F54B291711A200D228D3 /* SystemConfiguration.framework */,
+				1994F5492917119600D228D3 /* QuartzCore.framework */,
+				1994F5472917117800D228D3 /* OpenGLES.framework */,
+				1994F5452917116F00D228D3 /* Metal.framework */,
+				1994F5432917115B00D228D3 /* libz.tbd */,
+				1994F5412917114800D228D3 /* libc++.tbd */,
+				1994F53F2917113F00D228D3 /* ImageIO.framework */,
+				1994F53D2917113B00D228D3 /* GLKit.framework */,
+				1994F53B2917113500D228D3 /* CoreText.framework */,
+				1994F5392917113000D228D3 /* CoreTelephony.framework */,
+				1994F5372917112C00D228D3 /* CoreLocation.framework */,
+				1994F5352917112800D228D3 /* CoreImage.framework */,
+				1994F5332917112300D228D3 /* CoreGraphics.framework */,
+				1994F5312917111E00D228D3 /* CoreData.framework */,
+				1994F52F2917111800D228D3 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1994F4F02917102E00D228D3 /* SmartParking_GDP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1994F51B2917102F00D228D3 /* Build configuration list for PBXNativeTarget "SmartParking_GDP" */;
+			buildPhases = (
+				1994F4ED2917102E00D228D3 /* Sources */,
+				1994F4EE2917102E00D228D3 /* Frameworks */,
+				1994F4EF2917102E00D228D3 /* Resources */,
+				1994F5A829202D3B00D228D3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartParking_GDP;
+			packageProductDependencies = (
+				1994F5AC292032AC00D228D3 /* Alamofire */,
+				1994F5BA292AEFE600D228D3 /* FirebaseFirestore */,
+				1994F5BC292AEFE600D228D3 /* FirebaseFirestoreCombine-Community */,
+				1994F5BE292AEFE600D228D3 /* FirebaseFirestoreSwift */,
+				1994F5C1292AF2FB00D228D3 /* FirebaseAnalytics */,
+				1994F5C3292AF2FB00D228D3 /* FirebaseAnalyticsSwift */,
+			);
+			productName = SmartParking_GDP;
+			productReference = 1994F4F12917102E00D228D3 /* SmartParking_GDP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1994F5062917102F00D228D3 /* SmartParking_GDPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1994F51E2917102F00D228D3 /* Build configuration list for PBXNativeTarget "SmartParking_GDPTests" */;
+			buildPhases = (
+				1994F5032917102F00D228D3 /* Sources */,
+				1994F5042917102F00D228D3 /* Frameworks */,
+				1994F5052917102F00D228D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1994F5092917102F00D228D3 /* PBXTargetDependency */,
+			);
+			name = SmartParking_GDPTests;
+			productName = SmartParking_GDPTests;
+			productReference = 1994F5072917102F00D228D3 /* SmartParking_GDPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1994F5102917102F00D228D3 /* SmartParking_GDPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1994F5212917102F00D228D3 /* Build configuration list for PBXNativeTarget "SmartParking_GDPUITests" */;
+			buildPhases = (
+				1994F50D2917102F00D228D3 /* Sources */,
+				1994F50E2917102F00D228D3 /* Frameworks */,
+				1994F50F2917102F00D228D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1994F5132917102F00D228D3 /* PBXTargetDependency */,
+			);
+			name = SmartParking_GDPUITests;
+			productName = SmartParking_GDPUITests;
+			productReference = 1994F5112917102F00D228D3 /* SmartParking_GDPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1994F4E92917102E00D228D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1994F4F02917102E00D228D3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					1994F5062917102F00D228D3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 1994F4F02917102E00D228D3;
+					};
+					1994F5102917102F00D228D3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 1994F4F02917102E00D228D3;
+					};
+				};
+			};
+			buildConfigurationList = 1994F4EC2917102E00D228D3 /* Build configuration list for PBXProject "SmartParking_GDP" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1994F4E82917102E00D228D3;
+			packageReferences = (
+				1994F5A929202F8300D228D3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				1994F5B9292AEFE600D228D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				1994F5C0292AF2FB00D228D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 1994F4F22917102E00D228D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1994F4F02917102E00D228D3 /* SmartParking_GDP */,
+				1994F5062917102F00D228D3 /* SmartParking_GDPTests */,
+				1994F5102917102F00D228D3 /* SmartParking_GDPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1994F4EF2917102E00D228D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1994F5012917102F00D228D3 /* LaunchScreen.storyboard in Resources */,
+				1994F4FE2917102F00D228D3 /* Assets.xcassets in Resources */,
+				199B508F292AF4C30018F1EC /* GoogleService-Info.plist in Resources */,
+				1994F4FC2917102E00D228D3 /* Main.storyboard in Resources */,
+				1994F525291710BE00D228D3 /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1994F5052917102F00D228D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1994F50F2917102F00D228D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1994F4ED2917102E00D228D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1994F4F92917102E00D228D3 /* ViewController.swift in Sources */,
+				1994F5AF2921A35000D228D3 /* DirectionViewController.swift in Sources */,
+				1994F4F52917102E00D228D3 /* AppDelegate.swift in Sources */,
+				1994F4F72917102E00D228D3 /* SceneDelegate.swift in Sources */,
+				1994F5502917138700D228D3 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1994F5032917102F00D228D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1994F50C2917102F00D228D3 /* SmartParking_GDPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1994F50D2917102F00D228D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1994F5162917102F00D228D3 /* SmartParking_GDPUITests.swift in Sources */,
+				1994F5182917102F00D228D3 /* SmartParking_GDPUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1994F5092917102F00D228D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1994F4F02917102E00D228D3 /* SmartParking_GDP */;
+			targetProxy = 1994F5082917102F00D228D3 /* PBXContainerItemProxy */;
+		};
+		1994F5132917102F00D228D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1994F4F02917102E00D228D3 /* SmartParking_GDP */;
+			targetProxy = 1994F5122917102F00D228D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1994F4FA2917102E00D228D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1994F4FB2917102E00D228D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1994F4FF2917102F00D228D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1994F5002917102F00D228D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1994F5192917102F00D228D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1994F51A2917102F00D228D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1994F51C2917102F00D228D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmartParking_GDP",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartParking_GDP/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = TestGoogleMaps;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = TestGoogleMaps;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UserLoc";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.SmartParking-GDP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1994F51D2917102F00D228D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmartParking_GDP",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartParking_GDP/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = TestGoogleMaps;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = TestGoogleMaps;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UserLoc";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.SmartParking-GDP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1994F51F2917102F00D228D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.SmartParking-GDPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartParking_GDP.app/SmartParking_GDP";
+			};
+			name = Debug;
+		};
+		1994F5202917102F00D228D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.SmartParking-GDPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartParking_GDP.app/SmartParking_GDP";
+			};
+			name = Release;
+		};
+		1994F5222917102F00D228D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.SmartParking-GDPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartParking_GDP;
+			};
+			name = Debug;
+		};
+		1994F5232917102F00D228D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.SmartParking-GDPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartParking_GDP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1994F4EC2917102E00D228D3 /* Build configuration list for PBXProject "SmartParking_GDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1994F5192917102F00D228D3 /* Debug */,
+				1994F51A2917102F00D228D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1994F51B2917102F00D228D3 /* Build configuration list for PBXNativeTarget "SmartParking_GDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1994F51C2917102F00D228D3 /* Debug */,
+				1994F51D2917102F00D228D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1994F51E2917102F00D228D3 /* Build configuration list for PBXNativeTarget "SmartParking_GDPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1994F51F2917102F00D228D3 /* Debug */,
+				1994F5202917102F00D228D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1994F5212917102F00D228D3 /* Build configuration list for PBXNativeTarget "SmartParking_GDPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1994F5222917102F00D228D3 /* Debug */,
+				1994F5232917102F00D228D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1994F5A929202F8300D228D3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		1994F5B9292AEFE600D228D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		1994F5C0292AF2FB00D228D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1994F5AC292032AC00D228D3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1994F5A929202F8300D228D3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		1994F5BA292AEFE600D228D3 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1994F5B9292AEFE600D228D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		1994F5BC292AEFE600D228D3 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1994F5B9292AEFE600D228D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		1994F5BE292AEFE600D228D3 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1994F5B9292AEFE600D228D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		1994F5C1292AF2FB00D228D3 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1994F5B9292AEFE600D228D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		1994F5C3292AF2FB00D228D3 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1994F5B9292AEFE600D228D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1994F4E92917102E00D228D3 /* Project object */;
+}
